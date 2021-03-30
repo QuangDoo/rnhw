@@ -1,9 +1,19 @@
-/**
- * @format
- */
+import {Navigation} from 'react-native-navigation';
+import {HomeScreen} from '~/HomeScreen';
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
-
-AppRegistry.registerComponent(appName, () => App);
+Navigation.registerComponent('HomeScreen', () => HomeScreen);
+Navigation.events().registerAppLaunchedListener(() => {
+  Navigation.setRoot({
+    root: {
+      stack: {
+        children: [
+          {
+            component: {
+              name: 'HomeScreen',
+            },
+          },
+        ],
+      },
+    },
+  });
+});
