@@ -4,7 +4,7 @@
 - Create a repository on your GitHub account and submit the solution there when you're done.
 - Send us the URL to your repository via email and we'll contact you with the feedbacks.
 
-**The API editor is at https://www.everbase.co/editor**.
+**The API data is at https://github.com/lennertVanSever/graphcountries**.
 
 To make it easier to breath, this problem spans across 48 hours. You don't have to make it 100% the same to the images, only the idea. We hope to receive your work in its best shape. Please do not hesitate to ask for more information if neccessary.
 
