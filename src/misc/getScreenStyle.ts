@@ -2,7 +2,7 @@ import {Platform} from 'react-native';
 
 export const getScreenStyle = () => ({
   topBar: {
-    visible: false,
+    visible: true,
   },
   statusBar: {
     style: Platform.OS === 'ios' ? ('dark' as const) : ('light' as const),
