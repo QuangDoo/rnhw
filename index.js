@@ -36,7 +36,7 @@ Navigation.registerComponent(
   () => CountryDetailsScreen,
 );
 
-/* I tried to solve this issue - wrapp ApplloProvider around RootStack but I could not solve that. Please show me some solutions. Thanh you */
+/* I tried to solve this issue - wrap ApplloProvider around RootStack to provide 'client' to all screens but I could not solve that. Please show me some solutions. Thank you  */
 
 // Navigation.registerComponent(
 //   `App`,
